@@ -1,0 +1,244 @@
+[
+    {
+        "ioc": "8.8.8.8",
+        "type": "ip",
+        "abuse_confidence_score": 0,
+        "total_reports": 81,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "8.8.8.8",
+        "type": "ip",
+        "abuse_confidence_score": 0,
+        "total_reports": 81,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "8.8.8.8",
+        "type": "ip",
+        "source": "AbuseIPDB",
+        "abuse_confidence_score": 0,
+        "total_reports": 81,
+        "country_code": "US",
+        "isp": "Google LLC",
+        "domain": "google.com",
+        "usage_type": "Content Delivery Network",
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "8.8.8.8",
+        "type": "ip",
+        "source": "AbuseIPDB",
+        "abuse_confidence_score": 0,
+        "total_reports": 81,
+        "country_code": "US",
+        "isp": "Google LLC",
+        "domain": "google.com",
+        "usage_type": "Content Delivery Network",
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "8.8.8.8",
+        "type": "ip",
+        "source": [
+            "AbuseIPDB",
+            "OTX"
+        ],
+        "abuse_confidence_score": 0,
+        "total_reports": 81,
+        "country_code": "US",
+        "isp": "Google LLC",
+        "domain": "google.com",
+        "usage_type": "Content Delivery Network",
+        "otx_pulse_count": 0,
+        "otx_reputation": 0,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "8.8.8.8",
+        "type": "ip",
+        "source": [
+            "AbuseIPDB",
+            "OTX"
+        ],
+        "abuse_confidence_score": 0,
+        "total_reports": 81,
+        "country_code": "US",
+        "isp": "Google LLC",
+        "domain": "google.com",
+        "usage_type": "Content Delivery Network",
+        "otx_pulse_count": 0,
+        "otx_reputation": 0,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "8.8.8.8",
+        "type": "ip",
+        "source": [
+            "AbuseIPDB",
+            "OTX",
+            "VirusTotal"
+        ],
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 60,
+        "vt_undetected": 34,
+        "vt_reputation": 528,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "google.com",
+        "type": "domain",
+        "source": [
+            "AbuseIPDB",
+            "OTX",
+            "VirusTotal"
+        ],
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 67,
+        "vt_undetected": 27,
+        "vt_reputation": 687,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "https://example.com",
+        "type": "url",
+        "source": [
+            "AbuseIPDB",
+            "OTX",
+            "VirusTotal"
+        ],
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 68,
+        "vt_undetected": 27,
+        "vt_reputation": 40,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "44d88612fea8a8f36de82e1278abb02f",
+        "type": "hash",
+        "source": [
+            "AbuseIPDB",
+            "OTX",
+            "VirusTotal"
+        ],
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 35,
+        "vt_malicious": 67,
+        "vt_suspicious": 0,
+        "vt_harmless": 0,
+        "vt_undetected": 2,
+        "vt_reputation": 3726,
+        "threat_score": 55,
+        "verdict": "SUSPICIOUS"
+    },
+    {
+        "ioc": "192.168.1.2",
+        "type": "ip",
+        "source": [
+            "AbuseIPDB",
+            "OTX",
+            "VirusTotal"
+        ],
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 60,
+        "vt_undetected": 34,
+        "vt_reputation": 4,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "https://auth-threat-monitor.vercel.app/",
+        "type": "url",
+        "source": [
+            "AbuseIPDB",
+            "OTX",
+            "VirusTotal"
+        ],
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 0,
+        "vt_undetected": 0,
+        "vt_reputation": 0,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "192.168.1.3",
+        "type": "ip",
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "otx_reputation": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 59,
+        "vt_undetected": 35,
+        "vt_reputation": -4,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "192.168.1.3",
+        "type": "ip",
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "otx_reputation": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 59,
+        "vt_undetected": 35,
+        "vt_reputation": -4,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "192.168.1.3",
+        "type": "ip",
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "otx_reputation": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 0,
+        "vt_undetected": 0,
+        "vt_reputation": 0,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    },
+    {
+        "ioc": "192.168.1.3",
+        "type": "ip",
+        "abuse_confidence_score": 0,
+        "otx_pulse_count": 0,
+        "otx_reputation": 0,
+        "vt_malicious": 0,
+        "vt_suspicious": 0,
+        "vt_harmless": 0,
+        "vt_undetected": 0,
+        "vt_reputation": 0,
+        "threat_score": 0,
+        "verdict": "CLEAN"
+    }
+]
