@@ -1,36 +1,49 @@
 # IOC Analyzer
 
-Threat Intelligence CLI tool that analyzes **Indicators of Compromise (IOCs)** using multiple security intelligence sources and provides a unified threat score and verdict.
+A web-based threat intelligence tool that analyzes **Indicators of Compromise (IOCs)** such as IP addresses, domains, URLs, and file hashes using multiple threat intelligence sources.
 
-The tool aggregates data from different threat intelligence platforms to help analysts quickly evaluate suspicious indicators.
+The tool aggregates results from several platforms and provides a unified **Threat Score** and **Final Verdict**.
+
+
+## Live Demo
+
+You can try the tool directly in your browser:
+
+https://ioc-analyzer.streamlit.app/
+
+No installation required.
+
+Simply enter an IOC (IP, domain, URL, or hash) and click **Analyze**.
 
 
 ## Features
 
-- Multi-source threat intelligence lookup
-- Supports multiple IOC types
-- Unified threat scoring system
-- Clean CLI output using **Rich**
-- Modular architecture (sources, scoring, formatter)
-- Easy to extend with new intelligence sources
+- Analyze multiple IOC types:
+  - IP Address
+  - Domain
+  - URL
+  - File Hash
+- Multi-source threat intelligence
+- Automatic IOC type detection
+- Threat scoring system
+- Final verdict classification
+- Clean web interface
 
 
-## Supported IOC Types
+## Threat Intelligence Sources
 
-| IOC Type | Sources Used |
-|--------|--------|
-| IP Address | AbuseIPDB, OTX, VirusTotal |
-| Domain | OTX, VirusTotal |
-| URL | OTX, VirusTotal |
-| File Hash | OTX, VirusTotal |
+The analyzer uses the following sources:
 
+- **AbuseIPDB** – IP abuse reports and confidence scores
+- **AlienVault OTX** – threat intelligence pulses and reputation
+- **VirusTotal** – malware and reputation analysis
 
-## Intelligence Sources
+### Source usage by IOC type
 
-The analyzer currently integrates with:
+| IOC Type | AbuseIPDB | OTX | VirusTotal |
+|----------|-----------|-----|------------|
+| IP       | Yes       | Yes | Yes |
+| Domain   | No        | Yes | Yes |
+| URL      | No        | Yes | Yes |
+| Hash     | No        | Yes | Yes |
 
-- **AbuseIPDB**
-- **AlienVault OTX**
-- **VirusTotal**
-
-These sources provide reputation data, abuse reports, and malware detections.
